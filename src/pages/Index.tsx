@@ -6,17 +6,19 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md border-b border-white/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <div className="flex items-center space-x-2">
-                  <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg flex items-center justify-center">
-                    <TrendingUp className="w-5 h-5 text-white" />
-                  </div>
+                <div className="flex items-center space-x-3">
+                  <img 
+                    src="/lovable-uploads/c5c023a0-9053-4a73-93dd-f6eeac42d2c7.png" 
+                    alt="EdgeFounder Logo" 
+                    className="h-10 w-auto"
+                  />
                   <span className="text-white font-bold text-xl">EdgeFounder</span>
                 </div>
               </div>
@@ -42,7 +44,7 @@ const Index = () => {
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Il Futuro degli
-              <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-cyan-400 to-indigo-600 bg-clip-text text-transparent">
                 {" "}Investimenti
               </span>
             </h1>
@@ -51,7 +53,7 @@ const Index = () => {
               La nostra expertise in edge founding guida il successo delle startup più promettenti.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white">
+              <Button size="lg" className="bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-600 hover:to-indigo-700 text-white">
                 Scopri i Nostri Fondi
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
@@ -104,8 +106,8 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <TrendingUp className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mb-4">
+                  <TrendingUp className="w-6 h-6 text-cyan-600" />
                 </div>
                 <CardTitle>Innovazione</CardTitle>
               </CardHeader>
@@ -119,8 +121,8 @@ const Index = () => {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <Shield className="w-6 h-6 text-purple-600" />
+                <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                  <Shield className="w-6 h-6 text-indigo-600" />
                 </div>
                 <CardTitle>Sicurezza</CardTitle>
               </CardHeader>
@@ -134,8 +136,8 @@ const Index = () => {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                  <Users className="w-6 h-6 text-blue-600" />
                 </div>
                 <CardTitle>Partnership</CardTitle>
               </CardHeader>
@@ -165,7 +167,7 @@ const Index = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-bold">1</span>
                   </div>
                   <div>
@@ -175,7 +177,7 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-bold">2</span>
                   </div>
                   <div>
@@ -185,7 +187,7 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-bold">3</span>
                   </div>
                   <div>
@@ -197,7 +199,7 @@ const Index = () => {
             </div>
             
             <div className="relative">
-              <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
+              <div className="bg-gradient-to-br from-cyan-500 to-indigo-600 rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-6">Performance Track Record</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
@@ -233,7 +235,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-lg flex items-center justify-center mb-4">
                   <Globe className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle>EdgeFounder Venture I</CardTitle>
@@ -252,7 +254,7 @@ const Index = () => {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center mb-4">
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle>Growth Capital</CardTitle>
@@ -271,7 +273,7 @@ const Index = () => {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
                   <TrendingUp className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle>Impact Fund</CardTitle>
@@ -301,7 +303,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="h-48 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+              <div className="h-48 bg-gradient-to-r from-cyan-500 to-indigo-600"></div>
               <CardHeader>
                 <CardTitle className="text-lg">EdgeFounder investe €15M in TechStart AI</CardTitle>
                 <CardDescription>15 Gennaio 2024</CardDescription>
@@ -316,7 +318,7 @@ const Index = () => {
             </Card>
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="h-48 bg-gradient-to-r from-green-500 to-blue-500"></div>
+              <div className="h-48 bg-gradient-to-r from-blue-500 to-cyan-500"></div>
               <CardHeader>
                 <CardTitle className="text-lg">Q4 2023: Performance Report</CardTitle>
                 <CardDescription>8 Gennaio 2024</CardDescription>
@@ -331,7 +333,7 @@ const Index = () => {
             </Card>
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="h-48 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+              <div className="h-48 bg-gradient-to-r from-indigo-500 to-blue-500"></div>
               <CardHeader>
                 <CardTitle className="text-lg">Nuovo fondo da €200M per il 2024</CardTitle>
                 <CardDescription>20 Dicembre 2023</CardDescription>
@@ -349,7 +351,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-700">
+      <section className="py-20 bg-gradient-to-r from-cyan-600 to-indigo-700">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Pronto a Trasformare la Tua Idea in Realtà?
@@ -359,7 +361,7 @@ const Index = () => {
             siamo qui per supportarti nel tuo percorso di crescita.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-cyan-600 hover:bg-gray-100">
               Richiedi Finanziamento
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
@@ -374,10 +376,12 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg flex items-center justify-center">
-                  <TrendingUp className="w-5 h-5 text-white" />
-                </div>
+              <div className="flex items-center space-x-3 mb-4">
+                <img 
+                  src="/lovable-uploads/c5c023a0-9053-4a73-93dd-f6eeac42d2c7.png" 
+                  alt="EdgeFounder Logo" 
+                  className="h-8 w-auto"
+                />
                 <span className="font-bold text-xl">EdgeFounder</span>
               </div>
               <p className="text-gray-400 text-sm">
